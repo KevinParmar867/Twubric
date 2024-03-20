@@ -29,17 +29,17 @@ Responsive Design: The app is designed to be responsive and works well on differ
 
 ## Project Structure
 
-# .env : secure confidential data
+## .env : secure confidential data
   REACT_APP_API_KEY = "API Link"
 
-# src/
+## src/
 App.js: Main component that renders the application layout.
 Home.js: Component responsible for fetching data, handling user interactions, and rendering follower list.
 
-# utils/: 
+## utils/: 
 convertTimestamp.js :Contains utility functions used for converting timestamps into day ,month and year.
 
-# components/: 
+## components/: 
 UserList.js: Component responsible for rendering individual follower items.
 Skeleton.js: Component for displaying loading skeletons.
 SortButtons.js: Component for rendering sorting buttons.
