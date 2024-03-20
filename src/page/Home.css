@@ -1,0 +1,74 @@
+/* Home.css */
+
+.container {
+    padding: 20px;
+}
+
+.followers-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 20px;
+}
+
+.date-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.filter-button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.sort-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.sort-label {
+    margin-right: 10px;
+}
+
+.sort-options {
+       display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sort-btn {
+    padding: 8px 16px;
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+}
+
+.sort-btn.active {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* UserList.css */
+.username {
+    font-weight: bold;
+}
+
+.twubric-total {
+    font-size: 18px;
+}
+
+.remove-btn {
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.ConformationModal{
+    backdrop-filter:blur(1px);
+}
